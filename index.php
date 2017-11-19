@@ -1,6 +1,6 @@
 <html>
     <head>
-            <title>This is my php website.</title>
+            <title>PHP Trening</title>
     </head>
 
 </html>
@@ -9,16 +9,22 @@
      <h1>
          
       
-     <br> 
-     </br>
             <?php
-            // This is my comment
-            echo "This is my first PHP file!"
-            /*
-            This is for multiline comments, anything that
-            we type here, will be commented"
-            */
+            
+            $a = 1;
+            $b = 9;
+            $c = 4;
+            
+            if ($a == $c) {
+                echo $a . " s equal to ". $c;
+            }
+           else {
+                echo $a. " is not equal to ". $c;
+            }
+            
+            
+            
             ?>
      </h1>
-</body>
 </center>
+</body>
