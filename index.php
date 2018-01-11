@@ -5,25 +5,20 @@
 
 </html>
 <body>
+    <h1 align="center"> </h1>
 <center>
      <h1>
          
       
             <?php
+            // Functions
+
+                function namer($names){
+                    echo "Hello, my name is " . $names;
+                }
+            namer("Jovan Komazec");
             
-            $a = 1;
-            $b = 9;
-            $c = 4;
-            
-            if ($a == $c) {
-                echo $a . " s equal to ". $c;
-            }
-           else {
-                echo $a. " is not equal to ". $c;
-            }
-            
-            
-            
+        
             ?>
      </h1>
 </center>
